@@ -22,8 +22,8 @@ const services = [
 ]
 
 export default function App(){
- const detected=(navigator.language||'en').toLowerCase().startsWith('zh')?'zh':'en'
- const[lang,setLang]=useState<Language>((localStorage.getItem('cec-language')as Language)||detected)
+ // 默认面向中文用户展示；用户可点击右上角语言入口切换英文，并会记住选择。
+ const[lang,setLang]=useState<Language>((localStorage.getItem('cec-language')as Language)||'zh')
  const[theme,setTheme]=useState(localStorage.getItem('cec-theme')||'dark')
  const[expert,setExpert]=useState(false)
  const[settings,setSettings]=useState(false)
