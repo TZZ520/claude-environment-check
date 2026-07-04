@@ -7,6 +7,7 @@ permissions:
 jobs:
   test:
     strategy:
+      fail-fast: false
       matrix:
         os: [windows-latest, macos-latest, ubuntu-22.04]
     runs-on: ${{ matrix.os }}
@@ -31,7 +32,10 @@ jobs:
       - run: go test ./...
       - run: go vet ./...
       - run: go build ./cmd/claude-env-check ./cmd/probe-server
-      - run: go build -tags "desktop,production" .
+      - if: runner.os == 'macOS'
+        run: CGO_LDFLAGS="-framework UniformTypeIdentifiers" go build -tags "desktop,production" .
+      - if: runner.os != 'macOS'
+        run: go build -tags "desktop,production" .
   security:
     runs-on: ubuntu-latest
     steps:
