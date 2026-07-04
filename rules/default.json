@@ -1,0 +1,26 @@
+{
+  "version": "2026.07.04-1",
+  "updated_at": "2026-07-04T00:00:00Z",
+  "unofficial": true,
+  "official_sources": [
+    "https://docs.anthropic.com/en/docs/claude-code/getting-started",
+    "https://docs.anthropic.com/en/docs/claude-code/corporate-proxy"
+  ],
+  "compatibility_weights": {
+    "anthropic_access": 25,
+    "tls_integrity": 15,
+    "route_consistency": 20,
+    "dns_consistency": 15,
+    "system_readiness": 15,
+    "websocket_access": 10
+  },
+  "region_risk_weights": {
+    "effective_egress_cn": 55,
+    "direct_cn_routed_elsewhere": 25,
+    "explicit_region_denial": 30,
+    "mainland_timezone": 5,
+    "mainland_locale": 2
+  },
+  "notes": "Unknown checks reduce coverage and are excluded from the compatibility denominator. This manifest does not describe Anthropic's private logic."
+}
+

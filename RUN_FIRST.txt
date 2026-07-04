@@ -1,0 +1,10 @@
+Claude Environment Check Windows 预览版
+
+1. 请先完整解压 ZIP，再运行 ClaudeEnvironmentCheck.exe。
+2. 不要直接在 Windows 压缩文件预览窗口中双击 EXE。
+3. 本版本已嵌入 WebView2 Bootstrapper。若 WebView2 不存在，Windows 会提示安装。
+4. 若仍无法启动，程序会显示错误框，并写入日志：
+   %LOCALAPPDATA%\ClaudeEnvironmentCheck\startup.log
+
+CLI：claude-env-check.exe scan
+探针服务：probe-server.exe --help

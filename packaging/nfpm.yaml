@@ -1,0 +1,19 @@
+name: claude-environment-check
+arch: ${ARCH}
+platform: linux
+version: 0.1.0
+section: utils
+priority: optional
+maintainer: Claude Environment Check contributors
+description: Unofficial Claude Code network and system environment diagnostics
+license: Apache-2.0
+contents:
+  - src: build/bin/ClaudeEnvironmentCheck
+    dst: /usr/bin/claude-environment-check-gui
+  - src: build/bin/claude-env-check
+    dst: /usr/bin/claude-env-check
+  - src: packaging/linux/claude-environment-check.desktop
+    dst: /usr/share/applications/claude-environment-check.desktop
+  - src: LICENSE
+    dst: /usr/share/doc/claude-environment-check/LICENSE
+

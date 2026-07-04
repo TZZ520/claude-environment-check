@@ -1,0 +1,12 @@
+﻿/build/bin/
+/frontend/node_modules/
+/frontend/dist/
+/frontend/dist-web/
+/web/node_modules/
+/web/dist/
+*.log
+*.mmdb
+.env
+.env.*
+.DS_Store
+

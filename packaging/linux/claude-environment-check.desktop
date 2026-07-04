@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=Claude Environment Check (Unofficial)
+Comment=Check network and system readiness for Claude Code
+Exec=/usr/bin/claude-environment-check-gui
+Terminal=false
+Categories=Development;Network;Utility;
+

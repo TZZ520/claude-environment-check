@@ -1,0 +1,12 @@
+{
+  "$schema": "https://wails.io/schemas/config.v2.json",
+  "name": "claude-environment-check",
+  "outputfilename": "ClaudeEnvironmentCheck",
+  "frontend:install": "npm install",
+  "frontend:build": "npm run build",
+  "frontend:dev:watcher": "npm run dev",
+  "frontend:dev:serverUrl": "auto",
+  "author": { "name": "Community", "email": "" },
+  "info": { "companyName": "Community", "productName": "Claude Environment Check (Unofficial)", "productVersion": "0.1.0", "copyright": "Apache-2.0" }
+}
+

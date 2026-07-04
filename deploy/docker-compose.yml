@@ -1,0 +1,28 @@
+services:
+  probe:
+    build:
+      context: ..
+      dockerfile: deploy/Dockerfile.probe
+    restart: unless-stopped
+    command:
+      - --listen=:8443
+      - --cert=/certs/fullchain.pem
+      - --key=/certs/privkey.pem
+      - --dns-listen=:53
+      - --dns-zone=${DNS_ZONE}
+      - --dns-answer-ip=${PROBE_IPV4}
+      - --geoip-city=/geoip/GeoLite2-City.mmdb
+      - --geoip-asn=/geoip/GeoLite2-ASN.mmdb
+    environment:
+      PROBE_SECRET: ${PROBE_SECRET}
+    ports:
+      - "443:8443/tcp"
+      - "53:53/tcp"
+      - "53:53/udp"
+    volumes:
+      - ./certs:/certs:ro
+      - ./geoip:/geoip:ro
+    cap_drop: ["ALL"]
+    cap_add: ["NET_BIND_SERVICE"]
+    read_only: true
+    tmpfs: ["/tmp"]
