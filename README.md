@@ -8,9 +8,27 @@
 
 ## Keywords / 搜索关键词
 
-Claude Code environment checker, Claude Code diagnostic tool, Anthropic region check, Anthropic access test, Claude China region detection, Mainland China Claude Code check, Claude Code proxy test, Claude Code VPN test, Claude Code DNS leak test, Claude Code TLS fingerprint check, Claude Code WebSocket test, AI CLI network diagnostic, Claude Code unblock readiness, Claude Code usage environment, residential IP check, static residential IP checker, proxy quality test, VPN quality test, DNS pollution detection, DNS resolver leak, JA3 browser fingerprint, Anthropic API reachability, Claude Code risk score, China user environment check, cross-platform Claude checker, web-based Claude environment test.
+This project intentionally includes common search terms so users looking for Claude Code / Anthropic environment diagnostics can find it more easily.
 
-Claude Code 环境检测、Claude Code 诊断工具、Anthropic 地区检测、Anthropic 访问测试、Claude 中国地区检测、中国大陆 Claude Code 检测、Claude Code 代理检测、Claude Code VPN 检测、Claude Code DNS 泄漏检测、Claude Code TLS 指纹检测、Claude Code WebSocket 检测、AI CLI 网络诊断、Claude Code 使用环境评分、Claude Code 顺利使用检测、住宅 IP 检测、静态住宅 IP 检测、代理质量检测、VPN 质量检测、DNS 污染检测、DNS 解析器泄漏、JA3 浏览器指纹、Anthropic API 可达性检测、Claude Code 风险评分、中国用户环境检测、跨平台 Claude 检测工具、网页版 Claude 环境检测、本地端 Claude 环境检测、Claude Code 防封环境自检、Claude Code 账号风险环境检测。
+本项目有意整理了更多常见搜索词，方便需要 Claude Code / Anthropic 环境检测、网络排查、代理质量判断、账号风险自检的人快速找到。
+
+### English SEO keywords
+
+Claude Code environment checker, Claude Code diagnostic tool, Claude Code China checker, Claude Code Mainland China test, Anthropic region check, Anthropic access test, Anthropic blocked region diagnostic, Anthropic API reachability test, Claude Code proxy test, Claude Code VPN test, Claude Code DNS leak test, Claude Code TLS fingerprint check, Claude Code JA3 test, Claude Code WebSocket test, Claude Code network diagnostic, Claude Code account risk environment check, Claude Code ban risk self-check, Claude Code usage readiness score, Claude Code smooth usage checker, Claude Code connection troubleshooting, Claude Code firewall test, Claude Code region exposure score, Claude Code device environment score, Claude Code timezone locale check, AI CLI network diagnostic, AI developer tool access test, AI coding assistant network test, cross-platform Claude checker, Windows Claude Code checker, desktop Claude Code checker, browser Claude Code checker, web-based Claude environment test, GitHub Pages network checker, proxy quality test, VPN quality test, residential IP check, static residential IP checker, datacenter IP risk test, public cloud IP risk detection, shared proxy risk check, DNS pollution detection, DNS resolver leak, DNS geolocation check, TLS certificate inspection, browser JA3 fingerprint, WebSocket egress test, China user environment check, Mainland China network exposure check.
+
+### 中文搜索关键词
+
+Claude Code 环境检测、Claude Code 诊断工具、Claude Code 中国检测、Claude Code 中国大陆检测、Claude Code 地区限制检测、Claude Code 是否能用、Claude Code 连不上排查、Claude Code 网络环境评分、Claude Code 顺利使用检测、Claude Code 防封环境自检、Claude Code 账号风险环境检测、Claude Code 大陆环境暴露检测、Claude Code 代理检测、Claude Code VPN 检测、Claude Code 节点质量检测、Claude Code 住宅 IP 检测、Claude Code 静态住宅 IP 检测、Claude Code 机房 IP 风险检测、Claude Code 公共云 IP 风险检测、Claude Code 共享代理风险检测、Claude Code DNS 泄漏检测、Claude Code DNS 污染检测、Claude Code TLS 指纹检测、Claude Code JA3 指纹检测、Claude Code WebSocket 检测、Claude Code API 可达性检测、Claude Code 时区语言检测、Claude Code 电脑环境检测、Claude Code 浏览器环境检测、Claude Code 网页版检测、Claude Code Windows 检测工具、Claude Code 桌面端检测工具、Anthropic 地区检测、Anthropic 中国地区检测、Anthropic 访问测试、Anthropic API 可达性检测、Anthropic 网络诊断、Anthropic 地区暴露风险、AI CLI 网络诊断、AI 编程工具网络检测、AI 代码助手网络检测、中国大陆用户环境检测、中国用户 Claude 使用环境自检、代理质量检测、VPN 质量检测、DNS 解析器泄漏、DNS 出口检测、TLS 证书检测、浏览器 JA3 指纹、跨平台 Claude 检测工具、GitHub Pages 在线检测工具。
+
+### Marketing tags / 营销标签
+
+- **One-click Claude Code environment check** / 一键 Claude Code 环境检测
+- **Desktop + Web dual version** / PC 本地端 + 网页端双版本
+- **China region exposure risk score** / 中国大陆环境暴露风险评分
+- **Proxy, VPN, DNS, TLS, WebSocket, IP quality check** / 代理、VPN、DNS、TLS、WebSocket、IP 质量检测
+- **Residential IP and datacenter IP risk hints** / 住宅 IP 与机房 IP 风险提示
+- **Privacy-first local diagnostic tool** / 重视隐私的本地诊断工具
+- **No API key stealing, no traffic hijacking, no network modification** / 不偷 API Key、不劫持流量、不修改网络
 
 ## Why this project exists / 为什么做这个项目
 
@@ -146,6 +164,12 @@ build/bin/probe-server.exe
 ```
 
 ### Web version / 网页版
+
+After GitHub Pages finishes deploying, the standalone web version can be opened directly here:
+
+GitHub Pages 部署完成后，独立网页版可以直接通过这个网址访问：
+
+[https://tzz520.github.io/claude-environment-check/](https://tzz520.github.io/claude-environment-check/)
 
 Build locally:
 
